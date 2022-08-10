@@ -1,0 +1,9 @@
+---
+clickhouse:
+  hosts:
+    srv-clickhouse:
+      ansible_host: 51.250.92.85
+vector:
+  hosts:
+    srv-vector:
+      ansible_host: 51.250.90.71

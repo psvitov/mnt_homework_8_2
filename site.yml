@@ -32,7 +32,7 @@
       become: true
       ansible.builtin.service:
         name: clickhouse-server
-        state: restarted
+        state: started
     - name: Create database
       ansible.builtin.command: "clickhouse-client -q 'create database logs;'"
       register: create_db
